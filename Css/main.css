@@ -93,8 +93,11 @@ margin-top: 5px;
 h3{
     border-bottom: 5px solid #ADC5CF;
     width: 30%;
+    color: #37859F;
+    font-weight: bolder;
 }
 
 .skills, ul{
 list-style-type: none;
+padding-top: 3px;
 }
