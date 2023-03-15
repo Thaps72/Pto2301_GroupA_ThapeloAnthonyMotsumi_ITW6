@@ -37,18 +37,26 @@ background-color: #37859F;
 }
 
 /*-left-colum-styles*/
-.left-colum-main{
-width: 100%;
-margin-left: 20px;
-margin-top: 10px;
-font-size: 16px;
+.container{
+display: flex;
 }
 
+
+.left{
+    width: 70%;
+    padding: 10px;
+}
+
+
+.right{
+    width: 30%;
+    padding: 10px;
+}
 
 .work-1,h1{
     border-bottom: 5px solid #ADC5CF;
     padding: 3px;
-    width: 15%;
+    width: 16%;
 }
 
 h2{
@@ -67,4 +75,26 @@ padding-top: 10px;
 .work-2,h1{
     padding:3px;
     margin-top: 10px;
+}
+
+/*-right-colum-styles*/
+.study{
+    padding: 3px;
+}
+
+h2{
+    margin-top: 3px;
+}
+
+.skills{
+margin-top: 5px;
+}
+
+h3{
+    border-bottom: 5px solid #ADC5CF;
+    width: 30%;
+}
+
+.skills, ul{
+list-style-type: none;
 }
