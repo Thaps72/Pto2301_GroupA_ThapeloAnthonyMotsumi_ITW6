@@ -1,0 +1,70 @@
+/*-default-*/
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/*-header-styles*/
+.header{
+   background-color: #37859F;
+   width: 100%;
+   padding: 10px;
+}
+
+.header img{
+    width: 10%;
+    border-radius: 50%;
+}
+
+.header p{
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;  
+    font-size: 16px;
+}
+
+/*-socialslink-styles*/
+.social-links{
+padding: 10px;
+width: 100%;
+background-color: #37859F;
+}
+
+.fa-regular,.fa-brands, .fa-solid {
+    color:#DCEBF1;
+    
+}
+
+/*-left-colum-styles*/
+.left-colum-main{
+width: 100%;
+margin-left: 20px;
+margin-top: 10px;
+font-size: 16px;
+}
+
+
+.work-1,h1{
+    border-bottom: 5px solid #ADC5CF;
+    padding: 3px;
+    width: 15%;
+}
+
+h2{
+    font-size: 15px;
+}
+
+.FrontEnd-developer{
+padding-top: 10px;
+}
+
+.FrontEnd-developer, p{
+    margin-top: 3px;
+    
+}
+
+.work-2,h1{
+    padding:3px;
+    margin-top: 10px;
+}
