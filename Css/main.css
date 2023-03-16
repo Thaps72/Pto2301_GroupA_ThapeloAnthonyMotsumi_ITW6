@@ -106,10 +106,25 @@ padding-top: 3px;
 /*-my-footer-styles*/
 footer{
     background-color:  #37859F;
-    width: 100px;
+    width: 100%;
     height:auto;
+    margin-top: 3px;
+    padding-top: 4px;
+    padding-left: 7px;
 }
-/*
+
+
 .footer-container{
 display: flex;
-}*/
+}
+
+
+.left-footer{
+    width: 70%;
+    padding: 10px;
+}
+
+.right-footer{
+width: 30%;
+padding: 10px;
+}
