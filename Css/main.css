@@ -128,3 +128,10 @@ display: flex;
 width: 30%;
 padding: 10px;
 }
+
+.socials-icons{
+    display: flex;
+    align-items: center;
+   
+
+}
