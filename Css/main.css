@@ -132,6 +132,90 @@ padding: 10px;
 .socials-icons{
     display: flex;
     align-items: center;
-   
+}
 
+/*-my-animation-styles*/
+.skills-animation{
+padding: 8px;
+list-style-type: none;
+width: 400px;
+box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+
+ h5{
+    text-align: center;
+    color:#adcdd8;
+    font-size: 16px;
+}
+
+.skills-animation li{
+    margin: 5px;
+    padding: 6px;
+}
+
+.skills-animation, .bar{
+    background: #37859F;
+}
+.bar{
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 3);
+    height: 9px;
+    border-radius: 3px;
+    box-shadow:0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);   
+}
+
+.bar:hover{
+    box-shadow:0 3px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+}
+
+.bar span{
+    background: linear-gradient(135deg, rgba(236, 0,140,1)0% ,rgba(252,103,103,1)100%);
+   float: left;
+    height: 9px;
+}
+
+.html{
+width: 90%;
+animation: html 3s;
+
+}
+
+
+.Css{
+    width: 70%;
+    animation: html 3s;
+    }
+
+.WordPress{
+        width: 40%;
+        animation: html 3s;
+        }
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes Css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes WordPress{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
 }
